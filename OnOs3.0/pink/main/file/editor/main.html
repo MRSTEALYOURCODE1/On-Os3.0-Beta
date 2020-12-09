@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On-Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+	<div class="editor">
+        <div class="coding">
+            <div class="menu">
+                <button class="runner" onclick="run()">Run</button>
+                <button class="save" onclick="enter()">Save</button>
+                <button class="reset" onclick="reset()">Reset-Canvas</button>
+            </div>
+            <textarea class="html" id="html-code" placeholder="<>"></textarea>
+            <textarea class="css" id="css-code" placeholder="CSS"></textarea>
+            <textarea class="script" id="js-code" placeholder="JS"></textarea>
+        </div>
+        <iframe class="out" id="output"></iframe>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

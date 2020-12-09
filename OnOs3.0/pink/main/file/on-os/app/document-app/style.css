@@ -1,0 +1,42 @@
+body{
+    background-color: whitesmoke;
+}
+
+.text{
+    background-color: white;
+    width: 65%;
+    height: 110%;
+    position: absolute;
+    top: 15%;
+    left: 17.5%;
+    resize: none;
+    border: none;
+}
+
+.paper{
+    background-color: white;
+    width: 80%;
+    height: 125%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    resize: none;
+    border: none;
+}
+
+.top-bar{
+    background-color: rgb(79, 79, 255);
+    height: 8%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.save-btn{
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: -13%;
+    left: 1.5%;
+}
