@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Back</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+
+    <div id="apply" class="log">
+        <div class="see">
+            <p style="color: white; position: absolute; top: 48%; left: 44%;" id="test"></p>
+            <p style="color: dodgerblue; position: absolute; top: 54%; left: 43%;" >Applying Prefrences</p>
+            <img class="load" src="loading.gif" height="5%">
+            
+        </div>
+    </div>
+
+    <script>
+        window.onload = function myFunction() {
+            document.getElementById("test").innerHTML = localStorage.getItem("username");
+        }
+
+        setTimeout(function(){ window.location.href="main/main.html"; }, 4500);
+        
+    </script>
+</body>
+</html>
