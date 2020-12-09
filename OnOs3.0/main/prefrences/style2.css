@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(152, 1, 152);
+}
+
+.section{
+    background-color: white;
+    width: 35%;
+    height: 45%;
+    position: absolute;
+    left: 32.25%;
+    top: 30%;
+}
+
+
+.done{
+    color: rgb(152, 1, 152);
+    font-family: monospace;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+}
+
+.purple{
+    width: 10%;
+    height: 10%;
+    background-color: rgb(152, 1, 152);
+    position: absolute;
+    top: 38%;
+    left: 15%;
+    cursor: pointer;
+}
+
+.pink{
+    width: 10%;
+    height: 10%;
+    background-color: pink;
+    position: absolute;
+    top: 38%;
+    left: 30%;
+    cursor: pointer;
+}
+
+.yellow{
+    width: 10%;
+    height: 10%;
+    background-color: yellow;
+    position: absolute;
+    top: 38%;
+    left: 45%;
+    cursor: pointer;
+}
+
+.red{
+    width: 10%;
+    height: 10%;
+    background-color: red;
+    position: absolute;
+    top: 38%;
+    left: 60%;
+    cursor: pointer;
+}
+
+.blue{
+    width: 10%;
+    height: 10%;
+    background-color: blue;
+    position: absolute;
+    top: 38%;
+    left: 75%;
+    cursor: pointer;
+}
+

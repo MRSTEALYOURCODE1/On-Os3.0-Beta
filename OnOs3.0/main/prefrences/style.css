@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(152, 1, 152);
+}
+
+button{
+    cursor: pointer;
+}
+
+.section{
+    background-color: white;
+    width: 35%;
+    height: 45%;
+    position: absolute;
+    left: 32.25%;
+    top: 30%;
+}
+
+.welcome-area{
+    position: absolute;
+    left: 42%;
+    font-family: serif;
+    color: rgb(152, 1, 152);
+}
+
+.done{
+    color: rgb(152, 1, 152);
+    font-family: monospace;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+}
+
+.done2{
+    color: rgb(152, 1, 152);
+    font-family: monospace;
+    position: absolute;
+    top: 30%;
+    left: 26%;
+}
+
+.again{
+    background: #f1f1f1;
+    border: solid purple;
+    height: 40%;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    border-radius: 10px;
+}
+
+.again:hover{
+    transition: .7s;
+    background-color: purple;
+    color: #f1f1f1;
+}
+
