@@ -1,0 +1,157 @@
+body{
+    background: url(light.jpg);
+    background-size: 100% 100%;
+}
+
+.taskbar{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(152, 1, 152);
+}
+
+.docs{
+    background: url(https://www.gstatic.com/images/branding/product/1x/docs_48dp.png);
+    background-size: 100% 100%;
+    width: 5.5%;
+    height: 100%;
+    position: absolute;
+    left: 15.5%;
+    cursor: pointer;
+}
+
+.slides{
+    background: url(https://www.gstatic.com/images/branding/product/1x/slides_48dp.png);
+    background-size: 100% 100%;
+    width: 5.5%;
+    height: 100%;
+    position: absolute;
+    left: 20.5%;
+    cursor: pointer;
+}
+
+.sheet{
+    background: url(https://www.gstatic.com/images/branding/product/1x/sheets_48dp.png);
+    background-size: 100% 100%;
+    width: 5.5%;
+    height: 100%;
+    position: absolute;
+    left: 25.5%;
+    cursor: pointer;
+}
+
+.form{
+    background: url(https://www.gstatic.com/images/branding/product/1x/forms_48dp.png);
+    background-size: 100% 100%;
+    width: 5.5%;
+    height: 100%;
+    position: absolute;
+    left: 30.5%;
+    cursor: pointer;
+}
+
+.line{
+    background-color: gray;
+    width: 0.25%;
+    height: 100%;
+    position: absolute;
+    left: 14.5%;
+}
+
+.add{
+    background-color: gray;
+    width: 6%;
+    height: 100%; 
+    border-radius: 50%; 
+    position: absolute;
+    left: 94%;
+    cursor: pointer;
+}
+
+.top-add{
+    background-color: lightgray;
+    width: 0.25%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    cursor: pointer;
+}
+
+.left-add{
+    background-color: lightgray;
+    width: 100%;
+    height: 0.25%;
+    position: absolute;
+    top: 49.375%;
+    cursor: pointer;
+}
+
+#panel{
+    background-color: blue;
+    width: 6%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    left: 43%;
+    cursor: pointer;
+}
+
+.browse{
+    background: url(chrome.webp);
+    background-size: 100% 100%;
+    width: 6%;
+    position: absolute;
+    left: 36%;
+    height: 100%;
+}
+
+.openbtn{
+    background-color: rgb(152, 1, 152);
+    cursor: pointer;
+    border: none;
+    width: 14.5%;
+    height: 100%;
+}
+
+.openbtn:hover{
+    transition: 1.5s;
+    color: rgb(152, 1, 152);
+    background-color: midnightblue;
+}
+
+.sidepanel  {
+    width: 35%;
+    position: absolute;
+    z-index: 1;
+    height: 55%;
+    top: 27.5%;
+    left: 0;
+    background: url(light1.jpg);
+    background-size: 100% 100%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+  
