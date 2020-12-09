@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(152, 1, 152);
+}
+
+.on{
+    width: 10%;
+    height: 15%;
+    background: rgb(206, 204, 204);
+    opacity: 50%;
+    border-radius: 10px;
+    position: absolute;
+    top: 45%;
+    left: 39%;
+}
+
+.on:hover{
+    transition: 1s;
+    opacity: 10%;
+}
+
+.off{
+    width: 10%;
+    height: 15%;
+    background: rgb(206, 204, 204);
+    opacity: 50%;
+    border-radius: 10px;
+    position: absolute;
+    top: 45%;
+    left: 51%;
+}
+
+.off:hover{
+    transition: 1s;
+    opacity: 10%;
+}
+
+.where{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}

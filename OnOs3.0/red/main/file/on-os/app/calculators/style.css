@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(152, 1, 152);
+}
+
+.op{
+    background: rgb(206, 204, 204);
+    width: 10%;
+    height: 15%;
+    opacity: 50%;
+    border-radius: 10px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    cursor: pointer;
+}
+
+.op:hover{
+    opacity: 10%;
+}
+
+.cal{
+    position: relative;
+    left: 10%;
+    top: 5%;
+    width: 75%;
+    height: 90%;
+}
+
+
+.op2{
+    background: rgb(206, 204, 204);
+    width: 10%;
+    height: 15%;
+    opacity: 50%;
+    border-radius: 10px;
+    position: absolute;
+    left: 20%;
+    top: 5%;
+    cursor: pointer;
+}
+
+.op2:hover{
+    opacity: 10%;
+}
+
+.cal2{
+    position: relative;
+    left: 10%;
+    top: 5%;
+    width: 75%;
+    height: 90%;
+}
