@@ -1,1 +1,69 @@
-hello
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body ondblclick="createFolder();">
+    <div class="taskbar">
+        <div class="line"></div>
+        
+            <button onclick="window.open('https://docs.google.com/', '_blank');" class="docs"></button>
+
+        
+            <button onclick="window.open('https://docs.google.com/presentation', '_blank');" class="slides"></button>
+        
+
+        
+            <button onclick="window.open('https://docs.google.com/spreadsheets', '_blank');" class="sheet"></button>
+        
+
+        
+            <button onclick="window.open('https://docs.google.com/forms', '_blank');" class="form"></button>
+        
+
+        
+            <button onclick="window.open('https://google.com', '_blank');" class="browse"></button>
+
+        <div onclick="myFunction()" class="add">
+            <div class="top-add"></div>
+            <div class="left-add"></div>
+        </div>
+
+        <div id="panel" onclick="check()"></div>
+
+        <button class="openbtn" onclick="openNav()">File Menu</button>  
+
+        
+        
+        
+    </div>
+
+
+    <div id="folder" class="folder-one"></div>
+    <p id="foldername" class="fol-name"></p>
+
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>   
+        <div class="conn">
+            <a href="main2.html">Light Mode</a>
+            <a href="main.html">Dark Mode</a>
+            <a href="file/file.html">File Exploler</a>
+            <a href="file/editor/terminal/launcher/main.html" target="_blank">Online And Ofline Games</a>
+            <a href="file/stream/main.html" target="_blank">Tv, Streaming</a>
+        </div>
+      </div>
+
+
+      <div id="turn" class="purp">
+        <textarea class="in" id="set" placeholder="Set Password"></textarea>
+        <textarea class="in" id="ent" placeholder="Enter Password"></textarea>
+        <button onclick="setPassKey()" id="sett" class="key" >Set</button>
+        <button onclick="enterPassKey()" id="enter" class="key" >Enter</button>
+        <p id="lego">Wrong Pwd</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

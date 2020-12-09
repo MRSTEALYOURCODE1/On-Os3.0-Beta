@@ -1,0 +1,232 @@
+body{
+    background: url(dark.jpg);
+    background-size: 100% 100%;
+}
+
+button{
+    cursor: pointer;
+}
+
+.folder-one{
+    background: url(file/on-os/folder.png);
+    background-size: 100% 100%;
+    width: 7%;
+    height: 12%;
+    position: absolute;
+    left: 90%;
+    cursor: pointer;
+}
+
+.fol-name{
+    position: absolute;
+    left: 92%;
+    top: 11.5%;
+    cursor: pointer;
+    color: white;
+}
+
+.taskbar{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(152, 1, 152);
+}
+
+
+.docs{
+    background: url(https://www.gstatic.com/images/branding/product/1x/docs_48dp.png);
+    background-size: 100% 100%;
+    width: 5.5%;
+    height: 100%;
+    position: absolute;
+    left: 15.5%;
+    cursor: pointer;
+    border: none;
+}
+
+.slides{
+    background: url(https://www.gstatic.com/images/branding/product/1x/slides_48dp.png);
+    background-size: 100% 100%;
+    width: 5.5%;
+    height: 100%;
+    position: absolute;
+    left: 20.5%;
+    cursor: pointer;
+    border: none;
+}
+
+.sheet{
+    background: url(https://www.gstatic.com/images/branding/product/1x/sheets_48dp.png);
+    background-size: 100% 100%;
+    width: 5.5%;
+    height: 100%;
+    position: absolute;
+    left: 25.5%;
+    cursor: pointer;
+    border: none;
+}
+
+.form{
+    background: url(https://www.gstatic.com/images/branding/product/1x/forms_48dp.png);
+    background-size: 100% 100%;
+    width: 5.5%;
+    height: 100%;
+    position: absolute;
+    left: 30.5%;
+    cursor: pointer;
+    border: none;
+}
+
+.line{
+    background-color: gray;
+    width: 0.25%;
+    height: 100%;
+    position: absolute;
+    left: 14.5%;
+}
+
+.add{
+    background-color: gray;
+    width: 6%;
+    height: 100%; 
+    border-radius: 50%; 
+    position: absolute;
+    left: 94%;
+    cursor: pointer;
+}
+
+.top-add{
+    background-color: lightgray;
+    width: 0.25%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    cursor: pointer;
+}
+
+.left-add{
+    background-color: lightgray;
+    width: 100%;
+    height: 0.25%;
+    position: absolute;
+    top: 49.375%;
+    cursor: pointer;
+}
+
+#panel{
+    background-color: blue;
+    width: 6%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    left: 43%;
+    cursor: pointer;
+    display: none;
+}
+
+.browse{
+    background: url(chrome.webp);
+    background-size: 100% 100%;
+    width: 6%;
+    position: absolute;
+    left: 36%;
+    height: 100%;
+    border: none;
+}
+
+.openbtn{
+    background-color: rgb(152, 1, 152);
+    cursor: pointer;
+    border: none;
+    width: 14.5%;
+    height: 100%;
+}
+
+.openbtn:hover{
+    transition: 1.5s;
+    color: rgb(152, 1, 152);
+    background-color: midnightblue;
+}
+
+.sidepanel  {
+    width: 35%;
+    position: absolute;
+    z-index: 1;
+    height: 55%;
+    top: 27.5%;
+    left: 0;
+    background: url(dark1.jpg);
+    background-size: 100% 100%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.purp{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    background-color: purple;
+    height: 100%;
+    width: 100%;
+}
+
+.in{
+    resize: none;
+    width: 15%;
+    height: 4%;
+    color: black;
+    background: rgb(158, 158, 158);
+    border-radius: 10px;
+    position: absolute;
+    left: 41%;
+    top: 50%;
+}
+
+.key{
+    border: none;
+    background: rgb(158, 158, 158);
+    border-radius: 10px;
+    width: 15%;
+    height: 4%;
+    text-align: center;
+    position: absolute;
+    left: 41%;
+    top: 55%;
+}
+
+
+.in{
+    font-family: arial;
+}
+
+#lego{
+    color: red;
+    position: absolute;
+    left: 46%;
+    top: 58%;
+    display: none;
+}
+  
