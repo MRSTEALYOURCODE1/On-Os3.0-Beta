@@ -1,0 +1,20 @@
+body{
+    background: rgb(152, 1, 152);
+}
+
+button{
+    cursor: pointer;
+}
+
+.btn{
+    background-color: rgb(152, 1, 152);
+    color: white;
+    border: solid white;
+    width: 10%;
+    height: 7%;
+}
+
+.btn:hover{
+    transition: 1s;
+    opacity: 50%;
+}

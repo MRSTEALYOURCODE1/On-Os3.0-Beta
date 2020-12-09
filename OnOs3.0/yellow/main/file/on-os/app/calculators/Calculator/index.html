@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+      
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: url(backgroundimg.png) ;
+            background-size: 100% 100%;
+        }
+        .calculator{
+            height: 100%;
+            margin: 0 auto;
+            width: 400px;
+        }
+        .output{
+            font-size: 18px;
+            height: 10%;
+            padding: 5%;
+            width: 89%;
+            background: white;
+        }
+        .button{
+            background: rgb(39, 39, 39);
+            color: #f2aa4cff;
+            border:  none;
+            padding: 16px;
+            cursor: pointer;
+            transition: 0.5s;
+            height: 8%;
+            text-align: center;
+            width: 25%;
+            float: left;
+        }
+        
+        .button:hover{
+            background: #f2aa4cff;
+        }
+        .double{
+            width: 91%;
+        }
+        
+
+        
+    </style>
+</head>
+
+
+<body>
+<div class="calculator">
+    <div class="output">0</div>
+    
+    <div class="button">1</div>
+    <div class="button">2</div>
+    <div class="button">3</div>
+    <div class="button">4</div>
+    <div class="button">5</div>
+    <div class="button">6</div>
+    <div class="button">7</div>
+    <div class="button">8</div>
+    <div class="button">9</div>
+    <div class="button">0</div>
+    <div class="button">+</div>
+    <div class="button">-</div>
+    <div class="button">x</div>
+    <div class="button">÷</div>    
+    <div class="button ">C</div>
+    <div class="button double submit">=</div>
+
+
+</div>
+<script src="calculator.js"></script>
+
+</body>
+</html>
