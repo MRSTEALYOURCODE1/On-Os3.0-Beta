@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop</title>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+<body>
+    <div class="taskbar">
+        <div class="line"></div>
+
+        <a href="https://docs.google.com" target="_blank">
+            <div class="docs"></div>
+        </a>
+        <a href="https://docs.google.com/presentation" target="_blank">
+            <div class="slides"></div>
+        </a>
+
+        <a href="https://docs.google.com/spreadsheets" target="_blank">
+            <div class="sheet"></div>
+        </a>
+
+        <a href="https://docs.google.com/forms/u/0/" target="_blank">
+            <div class="form"></div>
+        </a>
+
+        <a href="https://google.com" target="_blank">
+            <div class="browse"></div>
+        </a>
+
+        <div onclick="myFunction()" class="add">
+            <div class="top-add"></div>
+            <div class="left-add"></div>
+        </div>
+
+        <div id="panel" onclick="check()"></div>
+
+        <button class="openbtn" onclick="openNav()">File Menu</button>  
+
+
+        
+        
+    </div>
+
+
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>   
+        <div class="conn">
+            <a href="main2.html">Light Mode</a>
+            <a href="main.html">Dark Mode</a>
+            <a href="file/file.html">File Exploler</a>
+        </div>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
